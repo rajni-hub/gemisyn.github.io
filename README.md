@@ -60,6 +60,9 @@ npm run build
 ```bash
 npm run deploy
 ```
+## ✅ Deployed on Vercel
+You can check out the live project here:
+🔗 https://gemisyn.vercel.app/
 
 ## 🎨 Project Structure
 
