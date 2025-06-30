@@ -1,12 +1,79 @@
-# React + Vite
+# Gemisyn - Interactive Diamond Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Gemisyn is a modern web application built with React and Three.js that provides an interactive platform for showcasing and exploring diamonds in 3D. The project features a beautiful user interface with smooth animations and responsive design.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive 3D Diamond Viewer using Three.js
+- Responsive and modern UI design
+- Smooth animations powered by Framer Motion
+- Collection showcase section
+- Story/About section
+- Performance optimized with Vercel Speed Insights
 
-## Expanding the ESLint configuration
+## 🚀 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Three.js
+- React Three Fiber & Drei
+- Framer Motion
+- Styled Components
+- React Router DOM
+- GSAP for animations
+- Vite as build tool
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/rajni-hub/gemisyn.github.io.git
+cd gemisyn.github.io
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+## 🛠️ Available Scripts
+
+- `npm run dev` - Starts the development server
+- `npm run build` - Builds the app for production
+- `npm run preview` - Preview the production build locally
+- `npm run deploy` - Deploy to GitHub Pages
+
+## 🌐 Deployment
+
+The project is configured for GitHub Pages deployment. After making changes:
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. Deploy to GitHub Pages:
+```bash
+npm run deploy
+```
+
+## 🎨 Project Structure
+
+```
+src/
+├── components/
+│   ├── layout/      # Layout components like Header
+│   ├── sections/    # Main section components
+│   └── shared/      # Reusable components
+├── pages/           # Page components
+├── styles/          # Global styles
+└── App.jsx          # Main application component
+```
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
