@@ -2,6 +2,10 @@
 
 Gemisyn is a modern web application built with React and Three.js that provides an interactive platform for showcasing and exploring diamonds in 3D. The project features a beautiful user interface with smooth animations and responsive design.
 
+## 📸 App Preview
+
+![Demo Screenshot](https://github.com/rajni-hub/gemisyn.github.io/blob/main/assests/pic1.png?raw=true)
+
 ## 🌟 Features
 
 - Interactive 3D Diamond Viewer using Three.js
