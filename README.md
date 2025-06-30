@@ -4,7 +4,7 @@ Gemisyn is a modern web application built with React and Three.js that provides 
 
 ## 📸 App Preview
 
-![Demo Screenshot](https://github.com/rajni-hub/gemisyn.github.io/blob/main/assests/pic1.png?raw=true)
+![Demo Screenshot](public/assets/ui.png)
 
 ## 🌟 Features
 
